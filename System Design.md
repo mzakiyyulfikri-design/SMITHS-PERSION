@@ -237,7 +237,6 @@
                  
       - Surgical History
           - List of Surgical History
-          - 
               - Patient ID
               - Patient Name
               - Patient Type
@@ -304,7 +303,10 @@
                   - Recovery Room delivery
                     - Start time
                     - End time
-                    - Note
+                     - Note
+              -  Report
+                  - View Report
+                  - Print
       - Configuration
           - Account Management
               - Register or edit user
