@@ -66,6 +66,11 @@
   - General    : Skor 3
   - Moderate   : Skor 2
   - Complex    : Skor 1
+
+## Urgency Level
+  - High    : Skor 3
+  - Medium  : Skor 2
+  - Low     : Skor 1
     
 ## Multi-disciplinary Surgical Procedures
   - 1 SMF/KSM	: Skor 1
