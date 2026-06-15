@@ -1,6 +1,7 @@
 # Variable Scoring
 
-## Surgical Name & Duration (Contoh)
+## Base Score
+- Surgical Name & Duration (Contoh)
   - General Surgery
     - Appendectomy
       - Duration : 120 menit
@@ -57,41 +58,42 @@
       - Duration : 300 menit
       - Turnover : 60 menit
 
-## Turnover
-  - >60 menit     : 1
-  - 31 - 60 menit : 2
-  - ≤30 menit     : 3
+- Turnover
+  - >60 menit     : Skor 1
+  - 31 - 60 menit : Skor 2
+  - ≤30 menit     : Skor 3
 
-## Kompleksitas Operasi
+- Duration Score
+  - ≤120 menit      : Skor 3
+  - 121–240 menit   : Skor 2
+  - >240 menit      : Skor 1
+
+- Kompleksitas Operasi
   - General    : Skor 3
   - Moderate   : Skor 2
   - Complex    : Skor 1
 
-## Urgency Level
+- Urgency Level
   - High    : Skor 3
   - Medium  : Skor 2
   - Low     : Skor 1
     
-## Multi-disciplinary Surgical Procedures
+- Multi-disciplinary Surgical Procedures
   - 1 SMF/KSM	: Skor 1
   - 2 SMF/KSM	: Skor 2
   - >2 SMF/KSM	: Skor 3
 
-## Patient Type
+- Patient Type
   - Adult      : Skor 1
   - Pediatric  : Skor 2
   - Infant     : Skor 2
     
-## Patient Class
+- Patient Class
   - Umum    : Skor 1
   - VIP     : Skor 2
   - Khusus  : Skor 3
     
-## Infection Status
-  - Non-infeksius : (Total Skor) x 1
-  - Infeksius     : (Total Skor) x (-1)
-    
-## Operating Working Hour
+- Operating Working Hour
   - Monday to Friday (08:00 - 20:00) 
     - Morning Shift        : 08:00 - 14:00 
     - Break Time 1st Stage : 12:00 - 13:00 
@@ -102,3 +104,21 @@
     - Break Time       : 12:00 - 13:00 
     - Afternoon Shift  : 13:00 - 17:00
   - Sunday (Off Day)
+
+- Working Hour Fit (Durasi + Turnover = Sisa Waktu Shift)
+  - Fit di shift morning tanpa break    : Skor 3
+  - Fit tapi kena break/pindah shift    : Skor 2
+  - Tidak fit (Overrun)                 : Skor 1
+ 
+## Infection Status
+  - Non-infeksius : (Base Score) x 1
+  - Infeksius     : (Base Score) x (-1)
+
+## Final Scoring for Operating Room Priority 
+  - Final Score = Base Score × Infection Status
+
+## Operating Room Priority
+  - Base Score × Infection Status = High/Medium/Low Priority Operating Room
+    - High Priority Operating Room     : Skor ≥17
+    - Medium Priority Operating Room   : Skor 13 - 16
+    - Low Priority Operating Room      : Skor ≤12
