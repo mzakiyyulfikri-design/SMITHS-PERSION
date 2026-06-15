@@ -1,0 +1,364 @@
+# SMITHS-PERSION
+
+Landing Page SMITHS
+- SMITHS MONERT
+- SMITHS ECSYS
+- SMITHS PACS
+- SMITHS PERSION
+  - Login Page
+      - Username
+      - Password
+      - Forgot Password
+      - Username/Password Incorrect
+      - Login
+  - SMITHS PERSION HOME
+      - Dashboard
+      - Application
+          - Emergency Surgery
+          - Patient ID
+          - Name
+              - Text Input
+          - Gender
+              - Dropdown Menu
+                  - Male
+                  - Female
+          - Date of Birth
+              - Date Picker
+          - Age
+              - Numeric Input
+          - Height
+              - Numeric Input
+          - Weight
+              - Numeric Input
+          - Blood Type
+              - Dropdown Menu
+                  - A+
+                  - A-
+                  - B+
+                  - B-
+                  - AB+
+                  - AB-
+                  - O+
+                  - O-
+          - Patient Type
+              - Dropdown Menu
+                  - Adult
+                  - Pediatric
+                  - Neonate
+          - Infectious Category
+              - Dropdown Menu
+                  - Infectious
+                  - Non-infectious
+          - Patient Class
+              - Dropdown Menu
+                  - Umum
+                  - VIP
+                  - Khusus
+          - Preoperative Diagnosis
+              - Text Input
+          - Prepose Diagnosis
+              - Text Input
+          - Name & Duration of Surgery
+              - Dropdown Menu (Multi-select)
+                  - (Surgical Menu)
+                  - (Surgical Menu)
+                  - (Surgical Menu)
+          - Surgigal Complexity
+              - Dropdown Menu
+                  - General
+                  - Moderate
+                  - Complex
+          - Multi-disciplinary Surgical Procedure
+              - Dropdown Menu
+                  - 1 SMF/KSM
+                  - 2 SMF/KSM
+                  - >2 SMF /KSM
+          - Surgeon (Autogenerate)
+          - Planned Surgery Time (Autogenerate)
+          - Note Schedulling
+          - Accumulated Scoring
+          - Save & Assign
+          - Cancel
+
+      - Surgery Schedule
+          - Sort
+              - Patient ID
+              - Patient Name
+              - Patient Type
+              - Age
+              - Gender
+              - Name of Surgery
+              - KSM
+              - Complexity Level
+              - Planned Surgery
+                  - Today
+                  - Next Day
+                  - Day After Tomorrow
+                  - This Week
+                  - This Month
+          - Surgery Schedule List
+              - No
+              - Patient ID
+              - Patient Name
+              - Patient Type
+              - Operating Room Name
+              - Age
+              - Gender
+              - Weight
+              - Surgeon
+              - View Details
+                  - No
+                  - Patient ID
+                  - Patient Name
+                  - Patient Type
+                  - Operating Room Name
+                  - Age
+                  - Gender
+                  - Blood Type
+                  - Weight
+                  - Surgeon
+                  - KSM
+                  - Complexity Level
+                  - Surgical Duration
+                  - Turnover
+                  - Preoperative Diagnosis
+                  - Prepose Diagnosis
+                  - Notes
+                  - Access Code
+                      - Show Access Code
+                          - Enter Password
+                          - Access Code Showed
+                          - Hide
+          - Surgery Timeline (Gantt Chart)
+              - Sort
+                  - Today
+                  - Next Day
+                  - Day After Tomorrow
+                  - This Week
+                  - This Month
+              - Surgery Name (Hyperlink)
+                  - View Surgery Details
+                      - No
+                      - Patient ID
+                      - Patient Name
+                      - Patient Type
+                      - Operating Room Name
+                      - Age
+                      - Gender
+                      - Blood Type
+                      - Weight
+                      - Surgeon
+                      - KSM
+                      - Complexity Level
+                      - Surgical Duration
+                      - Turnover
+                      - Preoperative Diagnosis
+                      - Prepose Diagnosis
+                      - Notes
+                      - Access Code
+                          - Show Access Code
+                            - Enter Password
+                            - Access Code Showed
+                            - Hide
+                  - Surgery Action
+      - Surgery Action
+          - Surgery List (Based on Today's Schedule)
+            - Pre-operative
+                - Persiapan area operasi
+                    - Start (Timer)
+                    - End (Timer)
+                    - Note (Text input)
+                - Identifikasi pasien
+                    - Start (Timer)
+                    - End (Timer)
+                    - Note (Text input)
+                - Pemeriksaan penunjang
+                    - Start (Timer)
+                    - End (Timer)
+                    - Note (Text input)
+            - Anesthesia
+                - Anesthesia delivery
+                    - Start (Timer)
+                    - End (Timer)
+                    - Note (Text input)
+                - Intubasi/ventilation
+                    - Start (Timer)
+                    - End (Timer)
+                    - Note (Text input)
+                - Vital sign monitoring
+                    - Start (Timer)
+                    - End (Timer)
+                    - Note (Text input)
+            - Intra-operative
+                - Start (Timer)
+                - End (Timer)
+                - Note (Text input)
+            - Post-operative
+                - Recovery Room delivery
+                  - Start (Timer)
+                  - End (Timer)
+                  - Note (Text input)
+                 
+      - Surgical History
+          - List of Surgical History
+          - 
+              - Patient ID
+              - Patient Name
+              - Patient Type
+              - Operating Room Name
+              - Age
+              - Gender
+              - Weight
+              - Surgeon
+              - View Patient Details
+                  - No
+                  - Patient ID
+                  - Patient Name
+                  - Patient Type
+                  - Operating Room Name
+                  - Age
+                  - Gender
+                  - Blood Type
+                  - Weight
+                  - Surgeon
+                  - KSM
+                  - Complexity Level
+                  - Surgical Duration
+                  - Turnover
+                  - Preoperative Diagnosis
+                  - Prepose Diagnosis
+                  - Notes
+              - View Surgey Action Details
+                - Pre-operative
+                  - Persiapan area operasi
+                    - Start time
+                    - End time
+                    - Note
+                  - Identifikasi pasien
+                    - Start time
+                    - End time
+                    - Note 
+                  - Pemeriksaan penunjang
+                    - Start time
+                    - End time
+                    - Note
+                  - Anesthesia
+                      - Anesthesia delivery
+                        - Start time
+                        - End time
+                        - Note
+                      - Intubasi/ventilation
+                        - Start time
+                        - End time
+                        - Note 
+                      - Vital sign monitoring
+                        - Start time
+                        - End time
+                        - Note 
+                - Intra-operative
+                  - Start time
+                  - End time
+                  - Note
+                - Post-operative
+                  - Recovery Room delivery
+                    - Start time
+                    - End time
+                    - Note
+      - Configuration
+          - Account Management
+              - Register or edit user
+                  - Add User
+                      - Name
+                      - Specialist
+                      - Surgery Availability
+                      - Preferred Day
+                      - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Password
+                      - Password Confirmation
+                      - Cancel
+                      - Save
+                          - Enter Password
+                          - Saved
+                          - Declined
+                  - View List
+                      - View Details
+                          - Name
+                          - Specialist
+                          - Surgery Availability
+                          - Preferred Day
+                          - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Edit
+                          - Name
+                          - Specialist
+                          - Surgery Availability
+                          - Preferred Day
+                          - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                          - Current Password
+                          - New Password
+                          - New Password Confirmation
+                          - Cancel
+                          - Save
+                              - Enter Password
+                              - Saved
+                              - Declined
+              - Register or edit operating room
+                  - Add Operating Room
+                      - Operating Room Name
+                      - Surgery List
+                      - Priority
+                      - Cancel
+                      - Save
+                  - Operating Room List View
+                      - View Details
+                      - Edit
+                          - Operating Room Name
+                          - Surgery List
+                          - Priority
+                          - Cancel
+                          - Save
+          - Hospital Management
+              - Hospital Details
+                  - Hospital Name
+                  - Hospital Address
+                  - Hospital Logo
+                      - Upload File (PNG/JPG/JPEG) <10mb
+                          - Browse
+                          - Choose
+                          - Cancel
+                  - Cancel
+                  - Save
+              - Surgeon Working Hours
+                  - Morning Shift
+                      - Start
+                      - Break
+                      - End
+                      - Cancel
+                      - Save
+                  - Afternoon Shift
+                      - Start
+                      - Break
+                      - End
+                      - Cancel
+                      - Save
+              - Surgical Menu
+                  - Add Surgical Menu
+                      - Surgery Name
+                      - Durations
+                      - Turnover
+                      - Cancel
+                      - Save
+                  - Surgical Menu List View
+                      - View Details
+                          - Surgery Name
+                          - Durations
+                          - Turnover
+                      - Edit
+                          - Surgery Name
+                          - Durations
+                          - Turnover
+                          - Cancel
+                          - Save
+            
+      - Log Out
+      - Active User
+- SMITHS PRIMA CARE
