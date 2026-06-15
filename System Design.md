@@ -1,10 +1,10 @@
-# SMITHS-PERSION
+# SMITHS
 
-Landing Page SMITHS
-- SMITHS MONERT
-- SMITHS ECSYS
-- SMITHS PACS
-- SMITHS PERSION
+## Landing Page SMITHS
+### SMITHS MONERT
+### SMITHS ECSYS
+### SMITHS PACS
+### SMITHS PERSION
   - Login Page
       - Username
       - Password
@@ -74,9 +74,9 @@ Landing Page SMITHS
                   - 2 SMF/KSM
                   - >2 SMF /KSM
           - Surgeon (Autogenerate)
-          - Planned Surgery Time (Autogenerate)
+          - Planned Surgery Time (Autogenerate date&time)
           - Note Schedulling
-          - Accumulated Scoring
+          - Accumulated Scoring (Autogenerate)
           - Save & Assign
           - Cancel
 
@@ -161,43 +161,50 @@ Landing Page SMITHS
                             - Access Code Showed
                             - Hide
                   - Surgery Action
+                      - Enter Access Code
+                      - Access Declined
+                      - Enter (Jump to Surgery Procedure)
       - Surgery Action
           - Surgery List (Based on Today's Schedule)
-            - Pre-operative
-                - Persiapan area operasi
+            - Action
+                - Enter Access Code
+                - Access Declined
+                - Enter 
+                  - Pre-operative
+                    - Persiapan area operasi
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
+                    - Identifikasi pasien
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
+                    - Pemeriksaan penunjang
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
+                  - Anesthesia
+                    - Anesthesia delivery
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
+                    - Intubasi/ventilation
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
+                    - Vital sign monitoring
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
+                  - Intra-operative
                     - Start (Timer)
-                    - End (Timer)
+                    - End 
                     - Note (Text input)
-                - Identifikasi pasien
-                    - Start (Timer)
-                    - End (Timer)
-                    - Note (Text input)
-                - Pemeriksaan penunjang
-                    - Start (Timer)
-                    - End (Timer)
-                    - Note (Text input)
-            - Anesthesia
-                - Anesthesia delivery
-                    - Start (Timer)
-                    - End (Timer)
-                    - Note (Text input)
-                - Intubasi/ventilation
-                    - Start (Timer)
-                    - End (Timer)
-                    - Note (Text input)
-                - Vital sign monitoring
-                    - Start (Timer)
-                    - End (Timer)
-                    - Note (Text input)
-            - Intra-operative
-                - Start (Timer)
-                - End (Timer)
-                - Note (Text input)
-            - Post-operative
-                - Recovery Room delivery
-                  - Start (Timer)
-                  - End (Timer)
-                  - Note (Text input)
+                  - Post-operative
+                    - Recovery Room delivery
+                      - Start (Timer)
+                      - End 
+                      - Note (Text input)
                  
       - Surgical History
           - List of Surgical History
@@ -361,4 +368,4 @@ Landing Page SMITHS
             
       - Log Out
       - Active User
-- SMITHS PRIMA CARE
+### SMITHS PRIMA CARE
