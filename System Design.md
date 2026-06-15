@@ -78,6 +78,11 @@
                   - 2 SMF/KSM
                   - > 2 SMF /KSM
           - Surgeon (Autogenerate)
+          - Assitant Surgeon (Autogenerate)
+          - Anesthesiologist (Autogenerate)
+          - Scrub Nurse (Autogenerate)
+          - Circulating Nurse (Autogenerate)
+          - Operator (Autogenerate)
           - Planned Surgery Time (Autogenerate date&time)
           - Note Schedulling
           - Accumulated Scoring (Autogenerate)
@@ -92,7 +97,12 @@
               - Age
               - Gender
               - Name of Surgery
-              - KSM
+              - Surgeon 
+              - Assitant Surgeon
+              - Anesthesiologist
+              - Scrub Nurse
+              - Circulating Nurse
+              - Operator 
               - Complexity Level
               - Planned Surgery
                   - Today
@@ -110,6 +120,11 @@
               - Gender
               - Weight
               - Surgeon
+              - Assitant Surgeon
+              - Anesthesiologist
+              - Scrub Nurse
+              - Circulating Nurse
+              - Operator 
               - View Details
                   - No
                   - Patient ID
@@ -122,7 +137,11 @@
                   - Weight
                   - Urgency Level
                   - Surgeon
-                  - KSM
+                  - Assitant Surgeon
+                  - Anesthesiologist
+                  - Scrub Nurse
+                  - Circulating Nurse
+                  - Operator
                   - Complexity Level
                   - Surgical Duration
                   - Turnover
@@ -154,7 +173,11 @@
                       - Weight
                       - Urgency Level
                       - Surgeon
-                      - KSM
+                      - Assitant Surgeon
+                      - Anesthesiologist
+                      - Scrub Nurse
+                      - Circulating Nurse
+                      - Operator
                       - Complexity Level
                       - Surgical Duration
                       - Turnover
@@ -235,7 +258,11 @@
                   - Weight
                   - Urgency Level
                   - Surgeon
-                  - KSM
+                  - Assitant Surgeon
+                  - Anesthesiologist
+                  - Scrub Nurse
+                  - Circulating Nurse
+                  - Operator
                   - Complexity Level
                   - Surgical Duration
                   - Turnover
@@ -282,10 +309,67 @@
           - Account Management
               - Register or edit user
                   - Add User
+                    - Surgeon
                       - Name
                       - Specialist
                       - Surgery Availability
                       - Preferred Day
+                      - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Password
+                      - Password Confirmation
+                      - Cancel
+                      - Save
+                          - Enter Password
+                          - Saved
+                          - Declined
+                    - Assistant Surgeon
+                      - Name
+                      - Specialist
+                      - Surgery Availability
+                      - Preferred Day
+                      - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Password
+                      - Password Confirmation
+                      - Cancel
+                      - Save
+                          - Enter Password
+                          - Saved
+                          - Declined
+                    - Anesthesiologist
+                      - Name
+                      - Specialist
+                      - Surgery Availability
+                      - Preferred Day
+                      - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Password
+                      - Password Confirmation
+                      - Cancel
+                      - Save
+                          - Enter Password
+                          - Saved
+                          - Declined
+                    - Scrub Nurse (Perawat Instrumen)
+                      - Name
+                      - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Password
+                      - Password Confirmation
+                      - Cancel
+                      - Save
+                          - Enter Password
+                          - Saved
+                          - Declined
+                    - Circulating Nurse (Perawat Sirkuler)
+                      - Name
+                      - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
+                      - Password
+                      - Password Confirmation
+                      - Cancel
+                      - Save
+                          - Enter Password
+                          - Saved
+                          - Declined
+                    - Operator
+                      - Name
                       - NIP (Nomor Induk Pegawai) / STR (Surat Tanda Registrasi)
                       - Password
                       - Password Confirmation
