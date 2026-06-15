@@ -54,6 +54,10 @@
                   - Umum
                   - VIP
                   - Khusus
+          - Urgency Level
+              - High
+              - Medium
+              - Low
           - Preoperative Diagnosis
               - Text Input
           - Prepose Diagnosis
@@ -72,7 +76,7 @@
               - Dropdown Menu
                   - 1 SMF/KSM
                   - 2 SMF/KSM
-                  - >2 SMF /KSM
+                  - > 2 SMF /KSM
           - Surgeon (Autogenerate)
           - Planned Surgery Time (Autogenerate date&time)
           - Note Schedulling
@@ -116,6 +120,7 @@
                   - Gender
                   - Blood Type
                   - Weight
+                  - Urgency Level
                   - Surgeon
                   - KSM
                   - Complexity Level
@@ -147,6 +152,7 @@
                       - Gender
                       - Blood Type
                       - Weight
+                      - Urgency Level
                       - Surgeon
                       - KSM
                       - Complexity Level
@@ -227,6 +233,7 @@
                   - Gender
                   - Blood Type
                   - Weight
+                  - Urgency Level
                   - Surgeon
                   - KSM
                   - Complexity Level
