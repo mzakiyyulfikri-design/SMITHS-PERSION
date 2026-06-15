@@ -137,4 +137,56 @@
                                                └───────────────────────┘
 
 
-   
+# Configuration & User Setup
+
+
+                                               ┌──────────────────────┐
+                                               │   FRONTEND (WEB)     │
+                                               │  - Configuration         │
+                                               │  - Account Management UI        │
+                                               │  - Hospital Management UI  │
+                                               │  - Form Input (User, OR, Hospital, Surgery)    │
+                                               └─────────┬────────────┘
+                                                         │ API CALL
+                                                         ▼
+                                               ┌──────────────────────┐
+                                               │     API GATEWAY      │
+                                               └─────────┬────────────┘
+                                                         │
+                                   ┌───────────────────────────────────────────┐
+                                   ▼                                           ▼
+                           ┌────────────────────────┐            ┌──────────────────────────────┐
+                           │ ACCOUNT MANAGEMENT     │            │ HOSPITAL MANAGEMENT          │
+                           │ - Register / Edit User │            │ - Hospital Details           │
+                           │ - Role-based Input     │            │ - Working Hours              │
+                           │ - Password Validation  │            │ - Surgical Menu              │
+                           │ - User CRUD            │            │ - Operating room management  │
+                           └────────────────────────┘            └──────────────────────────────┘   
+                                     ┬                                          ┬ 
+                                     ▼                                          ▼
+                            ┌──────────────────────┐                 ┌──────────────────────┐
+                            │ USER SERVICE         │                 │ HOSPITAL SERVICE     │
+                            │ - Add User           │                 │ - Save Hospital Info │ 
+                            │   - Surgeon          │                 │ - Manage Shifts      │ 
+                            │   - Anesthesiologist │                 │ - Manage OR          │ 
+                            │   - Scrub Nurse      │                 │ - Manage Surgery Menu│ 
+                            │   - Circulating Nurse│                 └──────────────────────┘
+                            │   - Operator         │                
+                            │ - Edit User          │                
+                            │ - View User          │                
+                            │ - Credentials Check  │                
+                            └─────────┬────────────┘                 
+                                      ▼                                     
+                            ┌─────────────────────────┐
+                            │     DATABASE LAYER      │
+                            │ - User Table            │
+                            │ - Roles Table           │
+                            │ - Specialties           │
+                            │ - Availability Surgical │
+                            │ - Operating Rooms       │
+                            │ - Hospital Info         │
+                            │ - Surgical Menu         │
+                            └─────────────────────────┘
+
+
+
